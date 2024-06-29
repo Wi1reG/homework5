@@ -57,11 +57,11 @@ public class Main {
 
         //9 задание
 
-        int Month = 0;
-        int percentMonth = sum + sum / 100;
+        int month = 0;
         for (int i = 1; i <= 12; i++) {
-            Month = Month + percentMonth;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + Month + " рублей");
+            month = month + month/100;
+            month = month + sum;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + month + " рублей");
         }
 
         //10 задание
