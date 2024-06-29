@@ -18,7 +18,7 @@ public class Main {
 
         //3 задание
 
-        for (int i = 2; i < 17; i = i + 2) {
+        for (int i = 2; i <= 17; i = i + 2) {
             System.out.println(i);
         }
 
